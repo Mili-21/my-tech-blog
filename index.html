@@ -228,12 +228,15 @@
     </article>
 
     <!-- Newsletter Signup -->
-    <div class="newsletter">
-        <h2>Subscribe to Our Newsletter</h2>
-        <p>Stay updated with the latest posts and news from our blog.</p>
-        <input type="email" placeholder="Your Email">
-        <button>Subscribe</button>
-    </div>
+    <!-- Newsletter Signup Section -->
+<div class="newsletter">
+    <h2>Subscribe to Our Newsletter</h2>
+    <p>Stay updated with the latest posts and news from our blog.</p>
+    <form action="subscribe.php" method="POST">
+        <input type="email" name="email" placeholder="Your Email" required>
+        <button type="submit">Subscribe</button>
+    </form>
+</div>
 </main>
 
 <footer>
